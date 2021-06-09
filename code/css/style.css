@@ -1,0 +1,26 @@
+/*========== Importation des css partiel ===========*/
+@import url(headers.css);
+@import url(footer.css);
+/*========= CSS GLOBAL ============*/
+section{
+    padding: 5%;
+}
+
+/*========== Presentation area ===========*/
+.presentation{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    background-image: url("../assets/img/boxe.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+.presentation_gretting , .presentation_illustration {
+    width: 50%;
+    height: 100%;
+}
+
+/*========== mobile area ===========*/

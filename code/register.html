@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="" name="description">
+  <meta content="" name="author" >
+  <meta content="" name="generator">
+  <title>Register</title>
+  <!--  logo -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <!-- Bootstrap core CSS -->
+  <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" >
+  <!--   My css-->
+  <link href="css/register.css" rel="stylesheet">
+  <!--    My js -->
+</head>
+<body>
+  <main>
+    <section class="register">
+      <div class="register_illustration">
+
+      </div>
+      <div class="register_form">
+        <header>
+          <h3> S'inscrire</h3>
+        </header>
+        <div>
+          <form action="login.html" method="post">
+            <p class="register_field-group">
+              <label for="firstname">
+                Prénom <br>
+                <input type="text" name="firstname" id="firstname">
+              </label>
+              <label for="lastname">
+                Nom <br>
+                <input type="text" name="lastname" id="lastname">
+              </label>
+            </p>
+            <p class="register_field-group">
+              <label for="gender">
+                Sexe <br>
+                <select name="gender" id="gender">
+                  <option value="">----</option>
+                  <option value="M">Masculin</option>
+                  <option value="F">Feminin</option>
+                </select>
+              </label>
+              <label for="age">
+                Age <br>
+                <input type="date" name="age" id="age">
+              </label>
+            </p>
+            <p class="register_field-group">
+              <label for="email">
+                Email <br>
+                <input type="email" name="email" id="email">
+              </label>
+            </p>
+            <p class="register_field-group">
+              <label for="password">
+                Prénom <br>
+                <input type="password" name="password" id="password">
+              </label>
+            </p>
+            <p class="register_field-group">
+              <label for="confirm_password">
+                Prénom  <br>
+                <input type="password" name="confirm_password" id="confirm_password">
+              </label>
+            </p>
+            <p class="register_field-group">
+              <button type="submit">Confirmer</button>
+              <input type="reset" value="Recommencer">
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
