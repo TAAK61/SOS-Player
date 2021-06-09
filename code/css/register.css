@@ -5,6 +5,11 @@ section{
     padding: 5%;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 /*========== register area ===========*/
 
 .register{
@@ -32,4 +37,52 @@ section{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.register_form header h3{
+    text-align: center;
+    border-bottom: 2px white solid;
+}
+
+.register_form .formulaire {
+    padding: 2%;
+}
+
+.register_field-group{
+    display: flex;
+    justify-content: space-between;
+}
+
+.register_field-group label {
+    width: 45%;
+}
+
+.register_field-group input {
+    width: 100%;
+    padding: 1% 4%;
+}
+input , select {
+    border-radius: 24px;
+    border: 3px solid #3498db;
+    outline: none;
+}
+input:focus{
+    border-color:#FFCA2C;
+}
+
+.register_btn-group {
+    display: flex;
+    justify-content: center;
+}
+
+.register_btn-group button {
+    border: 0;
+    background: none;
+    text-align: center;
+    border: 3px solid #FFCA2C;
+    padding: 5px;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
 }

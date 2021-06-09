@@ -25,56 +25,61 @@
         <header>
           <h3> S'inscrire</h3>
         </header>
-        <div>
+        <div class="formulaire">
           <form action="login.html" method="post">
-            <p class="register_field-group">
-              <label for="firstname">
-                Prénom <br>
-                <input type="text" name="firstname" id="firstname">
-              </label>
-              <label for="lastname">
-                Nom <br>
-                <input type="text" name="lastname" id="lastname">
-              </label>
-            </p>
             <p class="register_field-group">
               <label for="gender">
                 Sexe <br>
-                <select name="gender" id="gender">
-                  <option value="">----</option>
+                <select name="gender" id="gender" required>
                   <option value="M">Masculin</option>
                   <option value="F">Feminin</option>
+                  <option value="O">Other</option>
                 </select>
               </label>
+            </p>
+            <p class="register_field-group">
+              <label for="firstname">
+                Prénom <br>
+                <input type="text" name="firstname" id="firstname" autofocus required>
+              </label>
+              <label for="lastname">
+                Nom <br>
+                <input type="text" name="lastname" id="lastname" autocapitalize="characters" required>
+              </label>
+            </p>
+            <p class="register_field-group">
               <label for="age">
-                Age <br>
-                <input type="date" name="age" id="age">
+                Date de naissance <br>
+                <input type="date" name="age" id="age" required>
               </label>
             </p>
             <p class="register_field-group">
               <label for="email">
                 Email <br>
-                <input type="email" name="email" id="email">
+                <input type="email" name="email" id="email" required>
               </label>
             </p>
             <p class="register_field-group">
               <label for="password">
-                Prénom <br>
-                <input type="password" name="password" id="password">
+                Mot de passe <br>
+                <input type="password" name="password" id="password" required>
               </label>
             </p>
-            <p class="register_field-group">
-              <label for="confirm_password">
-                Prénom  <br>
-                <input type="password" name="confirm_password" id="confirm_password">
-              </label>
-            </p>
-            <p class="register_field-group">
-              <button type="submit">Confirmer</button>
-              <input type="reset" value="Recommencer">
+<!--            <p class="register_field-group">-->
+<!--              <label for="confirm_password">-->
+<!--                Prénom  <br>-->
+<!--                <input type="password" name="confirm_password" id="confirm_password">-->
+<!--              </label>-->
+<!--            </p>-->
+            <p class="register_btn-group ">
+              <button type="submit">Valider</button>
+              <a href="./index.html"><button type="button"> Annuler</button></a>
             </p>
           </form>
         </div>
+        <footer class="info" >
+          <p>Déja membre ? <a href="./login.html">Se connecter</a></p>
+        </footer>
       </div>
     </section>
   </main>

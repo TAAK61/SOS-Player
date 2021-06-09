@@ -1,0 +1,20 @@
+/*========== Importation des css partiel ===========*/
+@import url(sidebars.css.css);
+/*========= CSS GLOBAL ============*/
+main{
+    height: 100vh;
+    padding: 3%;
+}
+section {
+    width: 100%;
+}
+/*========== profil area ===========*/
+.profil{
+
+}
+.presentation_gretting , .presentation_illustration {
+    width: 50%;
+    height: 100%;
+}
+
+/*=
