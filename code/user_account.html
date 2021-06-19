@@ -13,7 +13,7 @@
     <!-- Bootstrap js -->
     <script src="assets/bootstrap/js/bootstrap.bundle.min.js" async defer></script>
     <!--   My css-->
-    <link href="css/sidebars.css" rel="stylesheet">
+    <link href="css/user_account.css" rel="stylesheet">
 
     <!--    My js -->
     <script src="./js/sidebars.js" async defer></script>
@@ -22,7 +22,7 @@
 <body>
     <!--    ============== Barre de navigation =======================-->
     <header>
-        <div class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark" style="width: 280px;">
+        <div class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark" style="width: 100%;">
             <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
                 <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
                 <span class="fs-4">SOS Player</span>
@@ -42,7 +42,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="nav-link text-white" active>
+                    <a href="#" class="nav-link text-white active" >
                         <svg class="bi me-2" width="16" height="16"><use xlink:href="#table"/></svg>
                         Mon compte
                     </a>
@@ -68,11 +68,22 @@
 
             <!-- ============== information de l'utilisateur ================= -->
             <section class="profil" id="profil">
-                <div class="profil-avatar">
+                <div class="user-avatar">
+                    <div class="avatar">
+
+                    </div>
 
                 </div>
                 <div class="user-info">
-
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <h6 class="mb-0">Phone</h6>
+                        </div>
+                        <div class="col-sm-9 text-secondary">
+                            (239) 816-9029
+                        </div>
+                    </div>
+                    <hr>
                 </div>
             </section>
 

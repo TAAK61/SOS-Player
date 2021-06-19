@@ -1,20 +1,42 @@
 /*========== Importation des css partiel ===========*/
-@import url(sidebars.css.css);
+@import url(sidebars.css);
 /*========= CSS GLOBAL ============*/
 main{
     height: 100vh;
-    padding: 3%;
+    width: 80%;
+    padding: 2%;
+    background-color: #E2E8F0;
 }
-section {
+.complete-info ,.profil {
     width: 100%;
+    height: 50%;
 }
 /*========== profil area ===========*/
 .profil{
-
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0.5%;
+    padding: 0.5%;
+    background-color: rgba(132, 32, 41, 0.9);
 }
-.presentation_gretting , .presentation_illustration {
-    width: 50%;
+.user-avatar{
+    width: 40%;
     height: 100%;
+    background-color: white;
+    margin-right: 0.5%;
+    border-radius: 2px;
 }
 
-/*=
+.user-info {
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    border-radius: 2px;
+}
+/*=========== complete-info area =========*/
+
+.complete-info {
+    display: flex;
+    flex-direction: row;
+    background-color: #1e2125;
+}
